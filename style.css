@@ -1,0 +1,111 @@
+:root {
+    --prussian-blue: #003049;
+    --maximum-red: #d62828;
+    --orange: #f77f00;
+    --maximum-yellow-red: #fcbf49;
+    --lemon-meringue: #eae2b7;
+}
+
+body {
+    background-color: var(--lemon-meringue);
+}
+
+header {
+    background-color: var(--orange);
+    display: flex;
+    align-items:flex-end
+}
+
+header h1 {
+    size: 100rem;
+    align-self: left;
+    padding-left: 1rem;
+    width:50%;
+}
+
+header nav {
+    /* border: 20px solid var(--prussian-blue); */
+    width:50%;
+
+}
+
+.dividerHeading {
+    background-color: var(--maximum-yellow-red);
+    text-align: center;
+    padding: 5px;
+    margin-top: 1px;
+
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#about {
+    background-color: var(--prussian-blue);
+    color: white
+}
+
+#yourFix {
+    /* background-color: var(--orange); */
+    padding: 20px;
+}
+
+#foodDrink {
+    /* background-color: var(--maximum-yellow-red); */
+}
+
+#instagram {
+    /* background-color: var(--lemon-meringue); */
+}
+
+#contact {
+    background-color: white;
+    text-align: center;
+}
+
+.fixSectionContainer {
+    display: flex;
+}
+
+.fixSection {
+    border: 5px solid black;
+    width: 50%;
+    height: 300px;
+    margin: 5px;
+}
+
+.twoColumns {
+    justify-content: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#welcomeImage {
+    border: 15px solid var(--maximum-yellow-red);
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
