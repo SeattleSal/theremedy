@@ -1,0 +1,21 @@
+{
+  "name": "theremedy",
+  "version": "1.0.0",
+  "description": "Resources:\r Google Fonts\r Colors from xyz\r Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeattleSal/theremedy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeattleSal/theremedy/issues"
+  },
+  "homepage": "https://github.com/SeattleSal/theremedy#readme",
+  "dependencies": {
+  }
+}
